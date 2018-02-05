@@ -1,12 +1,15 @@
-#Week 3: Sentiment
+# Week 3: Sentiment
 
 
 
 Order of Coverage:
 
-Simple Sentiment Counting
-
-
+* Simple Sentiment Counting
+* Using TextBlob
+* NLTK Sentiment for Tweets
+* NaiveBayes in Scikit-Learn
+* NaiveBayes in Scikit-Learn-TrumpClassifier
+* Sentiment Homework
 
 
 
@@ -18,7 +21,7 @@ This week you need to install Textblob.
 Docs: http://textblob.readthedocs.io/en/dev/quickstart.html
 
 
-####Useful background:
+#### Useful background:
 
 * An introduction to sentiment analysis by Lincoln Mullen-- https://lct-master.org/files/MullenSentimentCourseSlides.pdf
 
@@ -32,7 +35,7 @@ Docs: http://textblob.readthedocs.io/en/dev/quickstart.html
 https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html
 
 
-###Vocabulary concepts:
+### Vocabulary concepts:
 
 * valence, or polarity:  "positive", "negative", "neutral".
 * emotion: "anger", "joy", etc.
@@ -44,7 +47,7 @@ There are a few basic approaches to sentiment analysis:
 * Use an existing trained model (we will use one for social media).
 
 
-###Links:
+### Links:
 
 * https://nlp.stanford.edu/projects/socialsent/
 
