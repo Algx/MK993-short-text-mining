@@ -57,7 +57,11 @@ There are a few basic approaches to sentiment analysis:
 
 ### Web Viewer for Sentiment.json file
 
-If you want to view your sentiment.json file for a book in the web viewer, copy the sentiment.json file into the sentiment_vis directory.
+If you want to view your sentiment.json file for a book in the web viewer, copy the sentiment.json file into the sentiment_vis directory. Here are all the commands from the week 3 folder, using a chunk size of 200. (Increase it if you want less spiky charts.)
+
+>python get_sentiment_chunks.py data/books/Mybook.txt 200
+
+>cp sentiment.json sentiment_vis
 
 >cd sentiment_vis
 
