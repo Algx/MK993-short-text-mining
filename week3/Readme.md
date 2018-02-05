@@ -60,6 +60,7 @@ There are a few basic approaches to sentiment analysis:
 If you want to view your sentiment.json file for a book in the web viewer, copy the sentiment.json file into the sentiment_vis directory.
 
 >cd sentiment_vis
+
 >python -m http.server 8001
 
 Then in a web browser, open url localhost:8001.
