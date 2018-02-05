@@ -20,7 +20,7 @@ poswords = load_words(POSWORDS)
 
 def read_lowercase(filename):
     """Read and lowercase the text of the source file """
-    with open(filename) as debate:
+    with open(filename, errors="ignore") as debate:
         text = debate.readlines()  # doesn't scale, should do with generator
         text = [t.lower() for t in text] # lowercase it all
         alltext = ' '.join(text)
