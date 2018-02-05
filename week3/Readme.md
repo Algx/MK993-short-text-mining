@@ -55,4 +55,14 @@ There are a few basic approaches to sentiment analysis:
 
 * Very good article on results with short and long texts for sentiment: https://nlp.stanford.edu/pubs/sidaw12_simple_sentiment.pdf
 
+### Web Viewer for Sentiment.json file
+
+If you want to view your sentiment.json file for a book in the web viewer, copy the sentiment.json file into the sentiment_vis directory.
+
+>cd sentiment_vis
+>python -m http.server 8001
+
+Then in a web browser, open url localhost:8001.
+Pick the net_sentiment.html file.  Mouse over a point to see the words!
+
 
